@@ -1,3 +1,9 @@
-<view>
-  <text>我的第一个小程序页面</text>
+<!-- wxml是用来编写页面骨架的文件 -->
+<!-- view相当于div -->
+<view class='container'>
+  <image src="/images/avatar.png" class='avatar'></image>
+  <text class='title'>hello,美女</text>
+  <view class='btn'>
+    <text>开启小程序之旅</text>
+  </view>
 </view>
